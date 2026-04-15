@@ -1,500 +1,104 @@
-ls>dir
-pwd>cd
-cd>cd
-cat>type
-clear>cls
-cp>copy
-mv>move
-rm>del
-mkdir>mkdir
-rmdir>rmdir
-echo>echo
-whoami>whoami
-ps>tasklist
-kill>taskkill
-ip a>ipconfig
-ping>ping
-curl>curl
-grep>findstr
-chmod>icacls
-chown>takeown
-df>wmic logicaldisk get size,freespace,caption
-uname>ver
-hostname>hostname
-history>doskey /history
-nano>notepad
-vim>notepad
-vi>notepad
-touch>type nul >
-ssh>ssh
-scp>scp
-systemctl>sc
-apt install>winget install
-apt remove>winget uninstall
-apt update>winget upgrade
-ls -l>dir
-ls -a>dir
-ls -la>dir
-pwd>cd
-cd ..>cd ..
-cd />cd
-who>query user
-w>query user
-uptime>tasklist
-env>set
-printenv>set
-set>set
-export>schtasks
-crontab>tasklist
-jobs>start
-bg>start
-fg>start
-nohup>start
-free>wmic os
-df -h>wmic os
-du -sh>dir
-find .>dir /s
-locate>where
-which>where
-whereis>where
-stat>fsutil
-file>net use
-mount>net use
-umount>netstat
-netstat>netstat
-ss>route print
-route>ipconfig
-ip link>ipconfig
-ip route>nslookup
-nslookup>tracert
-traceroute>nslookup
-dig>dir
-ls -l>dir
-ls -a>dir
-ls -la>cd
-pwd>cd ..
-cd ..>cd
-cd />query user
-who>query user
-w>tasklist
-uptime>set
-env>set
-printenv>set
-set>schtasks
-export>tasklist
-crontab>start
-jobs>start
-bg>start
-fg>start
-nohup>wmic os
-free>wmic os
-df -h>dir
-du -sh>dir /s
-find .>where
-locate>where
-which>where
-whereis>fsutil
-stat>net use
-file>net use
-mount>netstat
-umount>netstat
-netstat>route print
-ss>ipconfig
-route>ipconfig
-ip link>nslookup
-ip route>tracert
-nslookup>nslookup
-traceroute>dir
-dig>dir
-ls -l>dir
-ls -a>cd
-ls -la>cd ..
-pwd>cd
-cd ..>query user
-cd />query user
-who>tasklist
-w>set
-uptime>set
-env>set
-printenv>schtasks
-set>tasklist
-export>start
-crontab>start
-jobs>start
-bg>start
-fg>wmic os
-nohup>wmic os
-free>dir
-df -h>dir /s
-du -sh>where
-find .>where
-locate>where
-which>fsutil
-whereis>net use
-stat>net use
-file>netstat
-mount>netstat
-umount>route print
-netstat>ipconfig
-ss>ipconfig
-route>nslookup
-ip link>tracert
-ip route>nslookup
-nslookup>dir
-traceroute>dir
-dig>dir
-ls -l>cd
-ls -a>cd ..
-ls -la>cd
-pwd>query user
-cd ..>query user
-cd />tasklist
-who>set
-w>set
-uptime>set
-env>schtasks
-printenv>tasklist
-set>start
-export>start
-crontab>start
-jobs>start
-bg>wmic os
-fg>wmic os
-nohup>dir
-free>dir /s
-df -h>where
-du -sh>where
-find .>where
-locate>fsutil
-which>net use
-whereis>net use
-stat>netstat
-file>netstat
-mount>route print
-umount>ipconfig
-netstat>ipconfig
-ss>nslookup
-route>tracert
-ip link>nslookup
-ip route>dir
-nslookup>dir
-traceroute>dir
-dig>cd
-ls -l>cd ..
-ls -a>cd
-ls -la>query user
-pwd>query user
-cd ..>tasklist
-cd />set
-who>set
-w>set
-uptime>schtasks
-env>tasklist
-printenv>start
-set>start
-export>start
-crontab>start
-jobs>wmic os
-bg>wmic os
-fg>dir
-nohup>dir /s
-free>where
-df -h>where
-du -sh>where
-find .>fsutil
-locate>net use
-which>net use
-whereis>netstat
-stat>netstat
-file>route print
-mount>ipconfig
-umount>ipconfig
-netstat>nslookup
-ss>tracert
-route>nslookup
-ip link>dir
-ip route>dir
-nslookup>dir
-traceroute>cd
-dig>cd ..
-ls -l>cd
-ls -a>query user
-ls -la>query user
-pwd>tasklist
-cd ..>set
-cd />set
-who>set
-w>schtasks
-uptime>tasklist
-env>start
-printenv>start
-set>start
-export>start
-crontab>wmic os
-jobs>wmic os
-bg>dir
-fg>dir /s
-nohup>where
-free>where
-df -h>where
-du -sh>fsutil
-find .>net use
-locate>net use
-which>netstat
-whereis>netstat
-stat>route print
-file>ipconfig
-mount>ipconfig
-umount>nslookup
-netstat>tracert
-ss>nslookup
-route>dir
-ip link>dir
-ip route>dir
-nslookup>cd
-traceroute>cd ..
-dig>cd
-ls -l>query user
-ls -a>query user
-ls -la>tasklist
-pwd>set
-cd ..>set
-cd />set
-who>schtasks
-w>tasklist
-uptime>start
-env>start
-printenv>start
-set>start
-export>wmic os
-crontab>wmic os
-jobs>dir
-bg>dir /s
-fg>where
-nohup>where
-free>where
-df -h>fsutil
-du -sh>net use
-find .>net use
-locate>netstat
-which>netstat
-whereis>route print
-stat>ipconfig
-file>ipconfig
-mount>nslookup
-umount>tracert
-netstat>nslookup
-ss>dir
-route>dir
-ip link>dir
-ip route>cd
-nslookup>cd ..
-traceroute>cd
-dig>query user
-ls -l>query user
-ls -a>tasklist
-ls -la>set
-pwd>set
-cd ..>set
-cd />schtasks
-who>tasklist
-w>start
-uptime>start
-env>start
-printenv>start
-set>wmic os
-export>wmic os
-crontab>dir
-jobs>dir /s
-bg>where
-fg>where
-nohup>where
-free>fsutil
-df -h>net use
-du -sh>net use
-find .>netstat
-locate>netstat
-which>route print
-whereis>ipconfig
-stat>ipconfig
-file>nslookup
-mount>tracert
-umount>nslookup
-netstat>dir
-ss>dir
-route>dir
-ip link>cd
-ip route>cd ..
-nslookup>cd
-traceroute>query user
-dig>query user
-ls -l>tasklist
-ls -a>set
-ls -la>set
-pwd>set
-cd ..>schtasks
-cd />tasklist
-who>start
-w>start
-uptime>start
-env>start
-printenv>wmic os
-set>wmic os
-export>dir
-crontab>dir /s
-jobs>where
-bg>where
-fg>where
-nohup>fsutil
-free>net use
-df -h>net use
-du -sh>netstat
-find .>netstat
-locate>route print
-which>ipconfig
-whereis>ipconfig
-stat>nslookup
-file>tracert
-mount>nslookup
-umount>dir
-netstat>dir
-ss>dir
-route>cd
-ip link>cd ..
-ip route>cd
-nslookup>query user
-traceroute>query user
-dig>tasklist
-ls -l>set
-ls -a>set
-ls -la>set
-pwd>schtasks
-cd ..>tasklist
-cd />start
-who>start
-w>start
-uptime>start
-env>wmic os
-printenv>wmic os
-set>dir
-export>dir /s
-crontab>where
-jobs>where
-bg>where
-fg>fsutil
-nohup>net use
-free>net use
-df -h>netstat
-du -sh>netstat
-find .>route print
-locate>ipconfig
-which>ipconfig
-whereis>nslookup
-stat>tracert
-file>nslookup
-mount>dir
-umount>dir
-netstat>dir
-ss>cd
-route>cd ..
-ip link>cd
-ip route>query user
-nslookup>query user
-traceroute>tasklist
-dig>set
-ls -l>set
-ls -a>set
-ls -la>schtasks
-pwd>tasklist
-cd ..>start
-cd />start
-who>start
-w>start
-uptime>wmic os
-env>wmic os
-printenv>dir
-set>dir /s
-export>where
-crontab>where
-jobs>where
-bg>fsutil
-fg>net use
-nohup>net use
-free>netstat
-df -h>netstat
-du -sh>route print
-find .>ipconfig
-locate>ipconfig
-which>nslookup
-whereis>tracert
-stat>nslookup
-file>dir
-mount>dir
-umount>dir
-netstat>cd
-ss>cd ..
-route>cd
-ip link>query user
-ip route>query user
-nslookup>tasklist
-traceroute>set
-dig>set
-ls -l>set
-ls -a>schtasks
-ls -la>tasklist
-pwd>start
-cd ..>start
-cd />start
-who>start
-w>wmic os
-uptime>wmic os
-env>dir
-printenv>dir /s
-set>where
-export>where
-crontab>where
-jobs>fsutil
-bg>net use
-fg>net use
-nohup>netstat
-free>netstat
-df -h>route print
-du -sh>ipconfig
-find .>ipconfig
-locate>nslookup
-which>tracert
-whereis>nslookup
-stat>dir
-file>dir
-mount>dir
-umount>cd
-netstat>cd ..
-ss>cd
-route>query user
-ip link>query user
-ip route>tasklist
-nslookup>set
-traceroute>set
-dig>set
-ls -l>schtasks
-ls -a>tasklist
-ls -la>start
-pwd>start
-cd ..>start
-cd />start
-who>wmic os
-w>wmic os
-uptime>dir
-env>dir /s
-printenv>where
-set>where
-export>where
-crontab>fsutil
-jobs>net use
-bg>net use
-fg>netstat
-nohup>netstat
-free>route print
-df -h>ipconfig
-du -sh>ipconfig
-find .>nslookup
+ls=dir
+cd=cd
+pwd=cd
+clear=cls
+tree=tree
+pushd=pushd
+popd=popd
+mkdir=mkdir
+rmdir=rmdir
+rm=del
+rm -r=rmdir /s
+rm -rf=rmdir /s /q
+cp=copy
+mv=move
+ren=ren
+touch=type nul >
+cat=type
+more=more
+type=type
+attrib=attrib
+grep=findstr
+find=findstr
+where=where
+which=where
+whereis=where
+history=doskey /history
+sort=sort
+fc=fc
+comp=fc
+findstr=findstr
+whoami=whoami
+hostname=hostname
+ver=ver
+systeminfo=systeminfo
+set=set
+env=set
+printenv=set
+id=whoami
+echo=echo
+ping=ping
+ip a=ipconfig
+ip addr=ipconfig
+ip link=ipconfig
+ip route=route print
+route=route print
+traceroute=tracert
+tracert=tracert
+nslookup=nslookup
+netstat=netstat
+arp=arp -a
+curl=curl
+ftp=ftp
+ps=tasklist
+top=tasklist
+kill=taskkill
+killall=taskkill /F
+tasklist=tasklist
+taskkill=taskkill
+wmic process=tasklist
+df=wmic logicaldisk get size,freespace,caption
+du=dir
+free=systeminfo
+mount=net use
+umount=net use /delete
+chkdsk=chkdsk
+diskpart=diskpart
+fsutil=fsutil
+chmod=icacls
+chown=takeown
+takeown=takeown
+icacls=icacls
+shutdown=shutdown
+reboot=shutdown /r /t 0
+poweroff=shutdown /s /t 0
+sleep=timeout
+uptime=systeminfo
+restart=shutdown /r /t 0
+nano=notepad
+vim=notepad
+vi=notepad
+edit=notepad
+open=start
+run=start
+start=start
+explorer=explorer
+ls -l=dir
+ls -a=dir /a
+ls -la=dir /a
+ls -R=dir /s
+ll=dir
+yes=echo y
+true=echo true
+false=echo false
+alias=doskey
+export=set
+unset=set
+help=help
+man=help
+pause=pause
+exit=exit
+cls=cls
+taskmgr=taskmgr
+control=control
+regedit=regedit
